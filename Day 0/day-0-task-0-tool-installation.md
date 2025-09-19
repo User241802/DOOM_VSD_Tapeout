@@ -1,10 +1,7 @@
-# Day 0 - Task 1: Tool Installation Setup
+# Day 0 - Task 2: Tool Installation Setup
 
 ## 📅 Date: September 19, 2025
-## ⏰ Duration: Full Day
 ## 🎯 Task: Install Yosys, Iverilog, and GTKWave
-
----
 
 ## 🎯 Objectives
 **What was planned:**
@@ -35,16 +32,21 @@
 - [x] Configured build environment: `make config-gcc`
 - [x] Successfully compiled Yosys: `make`
 - [x] Installed system-wide: `sudo make install`
+  <img width="939" height="645" alt="image" src="https://github.com/user-attachments/assets/a690a1f1-7036-46c0-8ad8-b7713910ee5c" />
+
 
 ### Iverilog Installation
 - [x] Updated package list: `sudo apt-get update`
 - [x] Installed Iverilog: `sudo apt-get install iverilog`
 - [x] Verified installation with version check
+<img width="939/2" height="634/2" alt="image" src="https://github.com/user-attachments/assets/270f07e5-39f8-489c-8741-aecfd880eaf1" />
 
 ### GTKWave Installation
 - [x] Updated package repositories
 - [x] Installed GTKWave: `sudo apt install gtkwave`
 - [x] Confirmed GUI accessibility
+<img width="798/2" height="91/2" alt="image" src="https://github.com/user-attachments/assets/1a6a1be9-9a55-4cb6-96a8-d6fa376a4126" />
+
 
 ### Documentation
 - [x] Captured tool installation screenshots
@@ -56,27 +58,12 @@
 ## 🚧 Challenges
 **Issues encountered and solutions:**
 
-### Challenge 1: Yosys Build Dependencies
-**Issue:** Initial compilation failed due to missing development packages
-**Solution:** Systematically installed all required dependencies as specified in installation guide. Used `sudo apt install make` separately when make was not found.
-
-### Challenge 2: Compilation Time
-**Issue:** Yosys source compilation took longer than expected (~45 minutes)
-**Solution:** Ran compilation in background while proceeding with other tool installations. Monitored progress using `htop` to ensure system resources were adequate.
-
-### Challenge 3: Path Configuration
-**Issue:** After installation, tools were not immediately accessible from command line
-**Solution:** Verified installation paths and ensured `/usr/local/bin` was in system PATH. Opened new terminal session to refresh environment variables.
+Luckily, I was able to install everything without any difficulties.
 
 ---
 
 ## 📚 Learnings
 **Key technical insights:**
-
-### Build System Understanding
-- **Source vs Package Installation**: Learned the difference between installing from source (Yosys) vs package manager (Iverilog, GTKWave)
-- **Dependency Management**: Understanding how build dependencies affect compilation success
-- **Make System**: Gained experience with GNU Make configuration (`make config-gcc`) and installation processes
 
 ### Tool Ecosystem Knowledge
 - **Yosys**: Open-source synthesis tool that converts RTL to gate-level netlists
@@ -96,37 +83,6 @@
 
 ---
 
-## ⏭️ Next Steps
-**Plan for following day:**
-
-### Immediate Actions (Day 1)
-- [ ] **Tool Verification**: Create simple Verilog testbench to verify all tools work together
-- [ ] **Workflow Testing**: Run complete simulation flow: Verilog → Iverilog → VCD → GTKWave
-- [ ] **Repository Update**: Push installation documentation and tool screenshots to GitHub
-- [ ] **Environment Setup**: Configure shell aliases and environment variables for efficient tool usage
-
-### Technical Preparation
-- [ ] **Study RISC-V ISA**: Begin understanding RISC-V instruction set architecture
-- [ ] **Verilog Refresh**: Review SystemVerilog syntax and best practices
-- [ ] **Tool Documentation**: Read Yosys, Iverilog, and GTKWave user manuals
-
-### Program Preparation
-- [ ] **Lab Environment**: Set up organized directory structure for upcoming lab work
-- [ ] **Version Control**: Initialize proper Git workflow for design files
-- [ ] **Collaboration Setup**: Prepare for integration with program-wide repositories
-
----
-
-## 📊 Installation Summary
-
-| Tool | Version | Installation Method | Status | Notes |
-|------|---------|-------------------|--------|-------|
-| Yosys | Latest (master) | Source Build | ✅ Successful | ~45 min compilation time |
-| Iverilog | Package Default | apt package | ✅ Successful | Quick installation |
-| GTKWave | Package Default | apt package | ✅ Successful | GUI verified |
-
----
-
 ## 🔧 System Configuration
 
 **Environment Details:**
@@ -136,11 +92,8 @@
 - **CPU**: 4 vCPU cores
 - **VM**: Oracle VirtualBox (as recommended)
 
-**Tool Paths:**
-- Yosys: `/usr/local/bin/yosys`
-- Iverilog: `/usr/bin/iverilog`
-- GTKWave: `/usr/bin/gtkwave`
+
 
 ---
 
-*This completes Day 0 - Task 1 of the RISC-V Chip Tapeout Program. Ready to proceed with actual design work and verification workflows.*
+*This completes Day 0 - Task 2 of the RISC-V Chip Tapeout Program. Ready to proceed with next ones.*
