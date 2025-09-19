@@ -96,4 +96,4 @@ Luckily, I was able to install everything without any difficulties.
 
 ---
 
-*This completes Day 0 - Task 1 of the RISC-V Chip Tapeout Program. Ready to proceed with actual design work and verification workflows.*
+*This completes Day 0 - Task 2 of the RISC-V Chip Tapeout Program. Ready to proceed with next ones.*
