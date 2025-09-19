@@ -29,7 +29,7 @@ Each day's work is documented with:
 - **Collaboration** in large-scale projects
 
 ## 📊 Weekly Tasks List 
-- [Task 0](Day%200/day-0-task-0-tool-installation.md)
+- [Task 0 - Tools Installation](Day%200/day-0-task-0-tool-installation.md)
 
 
 
