@@ -1,4 +1,4 @@
-# Day 0 - Task 2: Tool Installation Setup
+# Day 0 - Task 0: Tool Installation Setup
 
 ## 📅 Date: September 19, 2025
 ## 🎯 Task: Install Yosys, Iverilog, and GTKWave
@@ -96,4 +96,4 @@ Luckily, I was able to install everything without any difficulties.
 
 ---
 
-*This completes Day 0 - Task 2 of the RISC-V Chip Tapeout Program. Ready to proceed with next ones.*
+*This completes Day 0 - Task 0 of the RISC-V Chip Tapeout Program. Ready to proceed with next ones.*
