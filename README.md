@@ -28,6 +28,10 @@ Each day's work is documented with:
 - **Real tapeout** participation
 - **Collaboration** in large-scale projects
 
+## 📊 Weekly Tasks List 
+- [Task 2](Day%200/Day%200%20-%20Task%202%3A%20Tool%20Installation%20Setup.md)
+
+
 ## 🤝 Collaboration & Community
 
 This program brings together:
