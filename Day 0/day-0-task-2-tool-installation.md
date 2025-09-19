@@ -1,7 +1,6 @@
-# Day 0 - Task 1: Tool Installation Setup
+# Day 0 - Task 2: Tool Installation Setup
 
 ## 📅 Date: September 19, 2025
-## ⏰ Duration: Full Day
 ## 🎯 Task: Install Yosys, Iverilog, and GTKWave
 
 ---
