@@ -29,7 +29,8 @@ Each day's work is documented with:
 - **Collaboration** in large-scale projects
 
 ## 📊 Weekly Tasks List 
-- [Task 2](Day%200/Day%200%20-%20Task%202%3A%20Tool%20Installation%20Setup.md)
+- [Task 2](day%200/day-0-task-2-tool-installation.md)
+
 
 
 ## 🤝 Collaboration & Community
