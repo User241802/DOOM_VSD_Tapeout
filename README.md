@@ -12,6 +12,7 @@ This program represents India's most ambitious semiconductor initiative, taking 
 - **Hands-on Fabrication**: Actual tapeout with real silicon validation
 
 
+
 ## 📊 Daily Progress Tracking
 
 Each day's work is documented with:
